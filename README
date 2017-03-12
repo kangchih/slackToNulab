@@ -1,0 +1,15 @@
+This project shows how to interact with Slack.
+The user in Kang-Chih's Slack channel: #nulab could easily get information from Kang-Chih's Backlog by sending four message:
+1. 'get issues'
+2. 'add issue'
+3. 'delete issue'
+4. 'update issue'
+
+Usage:
+Python Slack.py
+
+In Slack channel(nulab) type:
+1. get issues => Show you all Kang-Chih's issues\
+2. add issue [summary] => Add issue with summary. Ex: add issue Hello from slack
+3. delete issue [issueKey] => Delete issue with issueKey. Ex delete issue NU-1
+4. update issue [issueKey] [summary] => Update issue with issueKey and summary. Ex update issue NU-1 Hello again
