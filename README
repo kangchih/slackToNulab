@@ -13,3 +13,6 @@ In Slack channel(nulab) type:
 2. add issue [summary] => Add issue with summary. Ex: add issue Hello from slack
 3. delete issue [issueKey] => Delete issue with issueKey. Ex delete issue NU-1
 4. update issue [issueKey] [summary] => Update issue with issueKey and summary. Ex update issue NU-1 Hello again
+
+Note:
+To run this project, please run pip install slacker.
