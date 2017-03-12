@@ -1,4 +1,4 @@
-This project shows how to interact with Slack.
+This project shows how to interact with Backlog from Slack.
 The user in Kang-Chih's Slack channel: #nulab could easily get information from Kang-Chih's Backlog by sending four message:
 1. 'get issues'
 2. 'add issue'
