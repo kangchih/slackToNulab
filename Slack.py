@@ -5,7 +5,7 @@ import sys, traceback
 import calendar
 import time
 from Nulab import Nulab
-from datetime import datetime, date, timedelta
+from datetime import datetime
 from slacker import Slacker
 
 class Slack():
@@ -90,7 +90,6 @@ class Slack():
 
     def start(self):
 
-        last_epoch = self._get_current_epoch()
         ts = time.time()
 
         while True:
@@ -107,8 +106,6 @@ class Slack():
 
             try:
                 current_epoch = self._get_current_epoch()
-                time_lasped = current_epoch - last_epoch
-                last_epoch = current_epoch
 
                 # fetch history and process commands
                 (has_exception, messages, new_ts) = self._get_slack_messages(ts)
